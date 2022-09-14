@@ -24,6 +24,8 @@
   and comment out in setup askClient.setCACert(local_root_ca);
   Also change the MQTT Port in secret.h
 
+***Important: Don't forget to add the PubSubClient to your Library*** https://github.com/knolleary/pubsubclient
+
 */
 
 #include "secret.h"
